@@ -5439,6 +5439,10 @@
       <add>
         Improvements to Korean translations. (woonsan)
       </add>
+      <fix>
+        Use the full path when the installer for Windows calls
+        <code>icacls.exe</code> to set file permissions. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
